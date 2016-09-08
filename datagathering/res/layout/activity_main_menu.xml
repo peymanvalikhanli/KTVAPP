@@ -1,0 +1,110 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bk2"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainMenu" >
+
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="118dp"
+        android:layout_y="383dp"
+        android:text="@string/lbl_exit"
+        android:background="@color/btn"
+        android:textColor="@color/white_color" />
+
+    <TextView
+        android:id="@+id/txt_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="95dp"
+        android:layout_y="10dp"
+        android:text="@string/app_name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white_color" />
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="140dp"
+        android:layout_y="56dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/txt_main_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="108dp"
+        android:layout_y="122dp"
+        android:text="@string/lbl_main_menu"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white_color" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="174dp"
+        android:layout_y="180dp"
+        android:background="@color/btn"
+        android:text="@string/lbl_register"
+        android:textColor="@color/white_color" />
+
+    <Button
+        android:id="@+id/btn_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="67dp"
+        android:layout_y="192dp"
+        android:text="@string/lbl_help"
+        android:background="@color/btn"
+        android:textColor="@color/white_color" />
+
+    <Button
+        android:id="@+id/btn_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="193dp"
+        android:layout_y="257dp"
+        android:text="@string/lbl_about"
+        android:background="@color/btn"
+        android:textColor="@color/white_color" />
+
+    <Button
+        android:id="@+id/btn_transfer_server"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="8dp"
+        android:layout_y="260dp"
+        android:text="@string/lbl_transfer_server"
+        android:background="@color/gray_color"
+        android:textColor="@color/white_color" />
+
+    <Button
+        android:id="@+id/btn_excel_export"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="180dp"
+        android:layout_y="332dp"
+        android:text="@string/lbl_excel_export"
+        android:background="@color/btn"
+        android:textColor="@color/white_color" />
+
+    <Button
+        android:id="@+id/btn_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="62dp"
+        android:layout_y="330dp"
+        android:text="@string/lbl_setting"
+        android:background="@color/btn"
+        android:textColor="@color/white_color" />
+
+</AbsoluteLayout>
