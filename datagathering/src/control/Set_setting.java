@@ -15,7 +15,7 @@ public class Set_setting extends File_IO  {
 	public int read_type_file(Context cotx) {
 		// reads setup parameters from hs_setup.csv file in Vars.Setup_path into GlobalAccess.Vars class
 		// returns 0 if no error, otherwise error code reference
-			
+			//test commit 
 			String []  csv_row = new String[100];
 			
 			Access access = new Access(cotx);
