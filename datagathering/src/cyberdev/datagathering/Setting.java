@@ -179,7 +179,6 @@ OnClickListener btn_company_save = new OnClickListener() {
 				Toast.makeText(getApplicationContext(),R.string.is_saved, Toast.LENGTH_LONG).show();
 				txt_Company.setText("");
 				*/
-				access.del_Company();
 				
 				
 			}
@@ -202,7 +201,6 @@ OnClickListener btn_application_save = new OnClickListener() {
 				Toast.makeText(getApplicationContext(),R.string.is_saved, Toast.LENGTH_LONG).show();
 				txt_Company.setText("");
 				*/
-				access.del_application();
 				
 			}
 			catch(Exception e){
@@ -224,7 +222,7 @@ OnClickListener btn_ancill_save = new OnClickListener() {
 				Toast.makeText(getApplicationContext(),R.string.is_saved, Toast.LENGTH_LONG).show();
 				txt_Company.setText("");
 				*/
-				access.del_Ancillary();
+				
 			}
 			catch(Exception e){
 				
