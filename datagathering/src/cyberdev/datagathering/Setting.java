@@ -155,7 +155,14 @@ public class Setting extends Activity {
 				txt_Type.setText("");
 				*/
 				Set_setting set = new Set_setting(); 
-				set.read_type_file(contx); 
+				int result =set.read_type_file(contx); 
+				if(result == 1){
+					
+					Toast.makeText(getApplicationContext(), R.string.done, Toast.LENGTH_LONG).show();
+				}else{
+					
+					Toast.makeText(getApplicationContext(), R.string.not_find_file, Toast.LENGTH_LONG).show();
+				}
 				
 			
 			}
@@ -179,6 +186,15 @@ OnClickListener btn_company_save = new OnClickListener() {
 				Toast.makeText(getApplicationContext(),R.string.is_saved, Toast.LENGTH_LONG).show();
 				txt_Company.setText("");
 				*/
+				Set_setting set = new Set_setting(); 
+				int result =set.read_company_file(contx); 
+				if(result == 1){
+					
+					Toast.makeText(getApplicationContext(), R.string.done, Toast.LENGTH_LONG).show();
+				}else{
+					
+					Toast.makeText(getApplicationContext(), R.string.not_find_file, Toast.LENGTH_LONG).show();
+				}
 				
 				
 			}
@@ -201,7 +217,15 @@ OnClickListener btn_application_save = new OnClickListener() {
 				Toast.makeText(getApplicationContext(),R.string.is_saved, Toast.LENGTH_LONG).show();
 				txt_Company.setText("");
 				*/
-				
+				Set_setting set = new Set_setting(); 
+				int result =set.read_application_file(contx); 
+				if(result == 1){
+					
+					Toast.makeText(getApplicationContext(), R.string.done, Toast.LENGTH_LONG).show();
+				}else{
+					
+					Toast.makeText(getApplicationContext(), R.string.not_find_file, Toast.LENGTH_LONG).show();
+				}
 			}
 			catch(Exception e){
 				
@@ -222,7 +246,15 @@ OnClickListener btn_ancill_save = new OnClickListener() {
 				Toast.makeText(getApplicationContext(),R.string.is_saved, Toast.LENGTH_LONG).show();
 				txt_Company.setText("");
 				*/
-				
+				Set_setting set = new Set_setting(); 
+				int result =set.read_ancill_file(contx); 
+				if(result == 1){
+					
+					Toast.makeText(getApplicationContext(), R.string.done, Toast.LENGTH_LONG).show();
+				}else{
+					
+					Toast.makeText(getApplicationContext(), R.string.not_find_file, Toast.LENGTH_LONG).show();
+				}
 			}
 			catch(Exception e){
 				

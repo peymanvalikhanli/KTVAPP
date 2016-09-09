@@ -85,5 +85,7 @@
     <string name="insert">اضافه</string>
     <string name="Do_you_clear">آیا اطلاعات پاک شود؟</string>
     <string name="title_activity_description">Description</string>
-
+	<string name="done">عملیات انجام شد</string>
+    <string name="not_find_file">مشکل در خواندن فایل</string>
+	
 </resources>
